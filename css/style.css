@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+body{
+    background-color: #1E1E1E;
+}
+
+section{
+    padding-block: 53px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    font-style: italic;
+    font-size: 64px;
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading .before-head{
+    width: 100px;
+    display: block;
+    height: 1px;
+    background-color: white;
+}
+
+.heading .after-head{
+    width: 100px;
+    display: block;
+    height: 1px;
+    background-color: white;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.icon i{
+    padding: 20px 15px;
+    color: white;
+}
+
+.icon .before{
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    display: block;
+}
+
+.icon .after{
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    display: block;
+}
+
+form{
+    position: relative;
+}
+
+form input{
+    width: 100%;
+    padding-block: 15px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: transparent;
+    caret-color: #1E1E1E;
+    padding-left: 10px;
+}
+
+form input:focus{
+    border: transparent;
+    outline: transparent;
+}
+
+form button{
+    position: absolute;
+    right: -1px;
+    padding: 11px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #4F4F4F;
+    color: white;
+    border: transparent;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container hr{
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+
+.container .tasks-content{
+    color: white;
+    border: 1px solid #D9D9D9;
+}
+
+.container .tasks-content .noteContainer .btns i:first-child{
+    margin-right: 5px;
+}
+
+.container .tasks-content .noteContainer .btns i{
+    cursor: pointer;
+    background-color: #999999;
+    color: #222222;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.container .tasks-content > span{
+    display: block;
+}
+
+.container .tasks-content .no-task{
+    text-align: center;
+    background-color: #222222;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.container .tasks-content .noteContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container .tasks-content .noteContainer .action{
+    display: flex;
+    flex: 1 1 0%;
+    padding-right: 10px;
+}
+
+.container .tasks-content .noteContainer .action input[type="text"], .container .tasks-content .noteContainer .action input[type="text"]:focus, .container .tasks-content .noteContainer .action input[type="text"]:focus-visible{
+    width: 100%;
+    border-radius: 10px;
+    padding-block: 9px;
+    padding-left: 10px;
+    background-color: #222222;
+    border: transparent;
+    color: white;
+    padding-right: 10px;
+    outline: transparent;
+}
+
+.container .tasks-content .noteContainer .action input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+.container .tasks-content .task-box .edit, .container .tasks-content .task-box .delete, .container .tasks-content .task-box .check{
+    padding: 10px;
+}
+
+.container .tasks-stats{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+}
+.container .tasks-stats .count{
+    padding: 10px;
+}
+
+.container .tasks-stats .completed{
+    padding: 10px;
+}
